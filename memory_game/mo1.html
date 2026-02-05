@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memery-card-game</title>
+    <link rel="stylesheet" href="mo1.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>ເກມທົດສອບຄວາມຈຳງ່າຍໆ</h2>
+
+        <div class="status-bar">
+            <div>⌚ ເວລາ: 
+                <span id="timer">0</span>s
+            </div>
+            <div>🎯 ເປີດ: 
+                <span id="moves">0</span>ເທື່ອ
+            </div>
+            <div>🏆 ດີທີ່ສຸດ: 
+                <span id="bestScore">--</span>
+                <span id="bestMoves">--</span>
+            </div>
+        </div>
+
+        <div id="gameBoard" class="gameBoard">
+            <div class="card" id="myCard"></div>
+        </div>
+        <div id="gamePopup" class="hidden">
+            <p>ເຈົ້າຊະນະ🎉🎊🎆</p>
+            <button id="closeBtn">ປິດ</button>
+        </div>
+        <button id="startBtn">ເລີ່ມຕົ້ນ</button>
+        <button id="restartBtn" class="hidden">ເລີ່ມໃໝ່</button>
+    </div>
+
+    <script src="mo1.js"></script>
+
+</body>
+</html>
